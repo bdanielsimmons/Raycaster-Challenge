@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Main Game Loop">
+      <UniqueIdentifier>{cd8afd2d-765c-47b9-811c-282cdcf8b8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State Manager">
+      <UniqueIdentifier>{4df25c86-027f-4095-bc56-af45aadc7585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{f54c1fe3-adec-45e3-bfbf-461c530277cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\Play State">
+      <UniqueIdentifier>{a353a67e-94af-44e9-9c67-65f997f18cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\Pause State">
+      <UniqueIdentifier>{7115de0b-605b-49f8-adc6-cb819cabc49e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NewGame+.cpp">
+      <Filter>Source Files\Main Game Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source Files\State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files\States\Pause State</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Source Files\States\Play State</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StateManager.h">
+      <Filter>Source Files\State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Source Files\State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Source Files\States\Pause State</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Source Files\States\Play State</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Source Files\Main Game Loop</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

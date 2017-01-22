@@ -1,0 +1,10 @@
+﻿  PlayState.cpp
+c:\users\bdani\onedrive\documents\visual studio 2017\projects\newgame+\newgame+\playstate.cpp(133): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\bdani\onedrive\documents\visual studio 2017\projects\newgame+\newgame+\playstate.cpp(224): warning C4244: '/=': conversion from 'double' to 'Uint8', possible loss of data
+c:\users\bdani\onedrive\documents\visual studio 2017\projects\newgame+\newgame+\playstate.cpp(225): warning C4244: '/=': conversion from 'double' to 'Uint8', possible loss of data
+c:\users\bdani\onedrive\documents\visual studio 2017\projects\newgame+\newgame+\playstate.cpp(226): warning C4244: '/=': conversion from 'double' to 'Uint8', possible loss of data
+c:\users\bdani\onedrive\documents\visual studio 2017\projects\newgame+\newgame+\playstate.cpp(229): warning C4244: '/=': conversion from 'double' to 'Uint8', possible loss of data
+c:\users\bdani\onedrive\documents\visual studio 2017\projects\newgame+\newgame+\playstate.cpp(230): warning C4244: '/=': conversion from 'double' to 'Uint8', possible loss of data
+c:\users\bdani\onedrive\documents\visual studio 2017\projects\newgame+\newgame+\playstate.cpp(231): warning C4244: '/=': conversion from 'double' to 'Uint8', possible loss of data
+  NewGame+.vcxproj -> C:\Users\bdani\OneDrive\Documents\Visual Studio 2017\Projects\NewGame+\Debug\NewGame+.exe
+  NewGame+.vcxproj -> C:\Users\bdani\OneDrive\Documents\Visual Studio 2017\Projects\NewGame+\Debug\NewGame+.pdb (Partial PDB)
